@@ -15,7 +15,7 @@ Goal | Item | Link to Item
 Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/new/master/GettingAndCleaningData/Project/Week3/run_analysis.R "run_analysis.R")
 Tidy Data Set |  Clean Data Set |  [Data Set Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/new/master/GettingAndCleaningData/Project/Week3/tidyData.txt "tidyData.txt")
 Github Repo | Repo |  [Repo Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/new/master/GettingAndCleaningData/ "Click to go to Repo")
-Cookbook | CodeBook.md |  [Repo Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/new/master/GettingAndCleaningData/Project/Week3/CodeBook.md "CodeBook.md")
+Cookbook | CodeBook.md |  [Repo Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/GettingAndCleaningData/Project/Week3/CodeBook.md "CodeBook.md")
 README | ReadingItNow |  [Repo Link](https://github.com/shadab-entrepreneur/DataScienceCoursera/new/master/GettingAndCleaningData/Project/Week3/README.md "README.md")
 
 ## Contributors
