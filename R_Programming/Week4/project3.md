@@ -3,7 +3,7 @@
 The zip file containing the data can be downloaded here:
 [Assignment 3 Data](https://d396qusza40orc.cloudfront.net/rprog%2Fdata%2FProgAssignment3-data.zip)
 
-###  Part 1 Plot the 30-day mortality rates for heart attack ([outcome.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week3/outcome.R))
+###  Part 1 Plot the 30-day mortality rates for heart attack ([outcome.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week4/outcome.R))
 
 ```R
 # install.packages("data.table")
@@ -20,7 +20,7 @@ outcome[, lapply(.SD
         , .SDcols = (11)]
 ```
 ![](https://github.com/mGalarnyk/datasciencecoursera/blob/master/2_R_Programming/projects/Hospital_30_day_death.png)
-###  Part 2 Finding the best hospital in a state ([best.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week3/best.R))
+###  Part 2 Finding the best hospital in a state ([best.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week4/best.R))
 ```R
 best <- function(state, outcome) {
   
@@ -71,7 +71,7 @@ best <- function(state, outcome) {
 }
 ```
 
-###  Part 3 Ranking hospitals by outcome in a state ([rankhospital.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week3/rankhospital.R))
+###  Part 3 Ranking hospitals by outcome in a state ([rankhospital.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week4/rankhospital.R))
 ```R
 rankhospital <- function(state, outcome, num = "best") {
   
@@ -132,7 +132,7 @@ rankhospital <- function(state, outcome, num = "best") {
 }
 ```
 
-###  Part 4 Ranking hospitals in all states ([rankall.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week3/rankall.R))
+###  Part 4 Ranking hospitals in all states ([rankall.R](https://github.com/shadab-entrepreneur/DataScienceCoursera/blob/master/R_Programming/Week4/rankall.R))
 ```R
 rankall <- function(outcome, num = "best") {
   
